@@ -289,8 +289,8 @@ widgets:
     # Google FeedBurner email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
+        position:
+        type:
         # Hint text under the email input
         description: 
         # Feedburner ID
@@ -298,17 +298,17 @@ widgets:
     # Google AdSense unit configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: tags
+        position:
+        type:
         # AdSense client ID
-        client_id: '123123'
+        #client_id: '123123'
         # AdSense AD unit ID
-        slot_id: '123123'
+        #slot_id: '123123'
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
+        position:
+        type:
         # Hint text under the email input
         description: 
         # Subscription form action URL
