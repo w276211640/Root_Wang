@@ -230,7 +230,7 @@ widgets:
         # Author's current location
         location: 西安
         # URL or path to the avatar image
-        avatar:
+        avatar: /img/avatar
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
