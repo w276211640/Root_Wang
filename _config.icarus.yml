@@ -230,7 +230,7 @@ widgets:
         # Author's current location
         location: 西安
         # URL or path to the avatar image
-        avatar: /img/avatar.png
+        avatar: 'https://avatars.githubusercontent.com/u/85927003?s=400&u=ff05582b484c9e40531403b0873eff6a0a0b8eba&v=4'
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
