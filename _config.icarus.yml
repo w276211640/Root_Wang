@@ -203,8 +203,9 @@ share:
     type: link
     # URL to the ShareThis share plugin script
     links:
-        Visualgo: 'https://visualgo.net/zh'
-        Stack overflow: 'https://stackoverflow.com/'
+        Visualgo:
+            url: 'https://visualgo.net/zh'
+
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -264,6 +265,7 @@ widgets:
         # Names and URLs of the sites
         links:
             Visualgo: 'https://visualgo.net/zh'
+            Stack overflow: 'https://stackoverflow.com/'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
