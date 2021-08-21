@@ -1,41 +1,10 @@
 ---
 title: Hello World
 toc: true
-categories: "hello"
-tags: blog
+tags: 简介
+categories 个人
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+### 关于博客
+  哈喽，这是我的博客，我会在这里分析一些好的东西，还有我的个人生活，以及一些数理逻辑思维，电子信息的技术知识，学习的心得体会，还有一些电脑的操作使用体会。
+  目前我准备从一个项目是用C语言写的编译器开始，我会一点一点的分析整个完整的代码。
 
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
