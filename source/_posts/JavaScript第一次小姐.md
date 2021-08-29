@@ -1,14 +1,13 @@
-___
+---
 title: JavaScript第一次小姐
 toc: true
 tags: -JavaScript
 -学习笔记
 -编程
 calories: -JavaScript
+---
 
-## 一
-
-## 、数据类型：
+##一 、数据类型：
 
 ### 1.在JS中共有六种数据类型
 
@@ -28,8 +27,8 @@ calories: -JavaScript
     let b;//undefined
    /*
     *可以创建一个变量而给他赋值null此时并未指向任何对象并且布尔值为0，
-    *如果创建一个对象只是声明它并不给它赋值则它的数据类型为undefined那么它并不等同于null比如要比较两个变量那么就要考虑到是否会出现null和undefined的比较如果需要区分它们那么就需要使用严格比较符(===)以及严格不等符(!==)，否则使用普通的比较符
-   ```
+    *如果创建一个对象只是声明它并不给它赋值则它的数据类型为undefined那么它并不等同于null比如要比较两个变量那么就要考虑到是否会出现null和undefined的比较如果需要区分它们那么就需要使用严格比较符(===)以及严格不等符(!==)，否则使用普 通的比较符
+
 
 ### 2.显示数据类型强制转换
 
@@ -44,7 +43,7 @@ calories: -JavaScript
    num = number(str);//NaN
    num = number(null);//0
    num = number(false);//0 true = 1
-   ```
+
 
 2. ```javascript
    //使用parseInt() or parsefloat()
@@ -55,7 +54,7 @@ calories: -JavaScript
    num = parseInt(str);//num=123,但是底层调用的还是number()函数
    num = parseInt('123.12e');//对于parseInt()返回的123，
    num = parsefloat('123.12e');//此时返回的是123.12
-   ```
+
 
 3. ```javascript
    /*
@@ -71,10 +70,9 @@ calories: -JavaScript
            按照十进制转换所以0o21(8)应该是17(10)，这个17(10)就会转换为'17'字符串，
            再通过parseInt()转换是指定的八进制所以就是17(8)=15(10)
        */
-   ```
+
 
 #### 2.2字符串转换
-
 1. ```javascript
    //使用.toString()将非字符串数据转换为字符串数据
    /*调用被转换数据类型的toString()方法
@@ -91,9 +89,8 @@ calories: -JavaScript
    a = string(a);//a='null'
    let b;
    b = string(b);//b='undefined'
-   ```
-### 3.隐式数据类型强制转换(其实底层调用的依旧是显示转换的方法和函数)
 
+### 3.隐式数据类型强制转换(其实底层调用的依旧是显示转换的方法和函数)
 1. ```javascript
    /*
     * 对于非数值类型的数据可以使用一些算数运算符和逻辑运
@@ -120,7 +117,7 @@ calories: -JavaScript
     * /
     let a = 123;
     a = a + '';//a = a + null;
-   ```
+
 ### 4.逻辑运算符
 1. ```javascript
    // 逻辑与运算 &&
